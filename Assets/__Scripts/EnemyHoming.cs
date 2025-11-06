@@ -1,4 +1,4 @@
-ususing UnityEngine;
+using UnityEngine;
 
 public class EnemyHoming : MonoBehaviour
 {
@@ -15,8 +15,5 @@ public class EnemyHoming : MonoBehaviour
         if (hero == null) return;
         Vector3 direction = (hero.position - transform.position).normalized;
         transform.position += direction * speed * Time.deltaTime;
-    }
-}
-
     }
 }
