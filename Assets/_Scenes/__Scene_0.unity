@@ -682,7 +682,7 @@ Camera:
   far clip plane: 100
   field of view: 60
   orthographic: 1
-  orthographic size: 40
+  orthographic size: 44
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -866,6 +866,10 @@ PrefabInstance:
     - target: {fileID: 4585056558559802871, guid: 2a064a06ee1a56242821312fd6f7cb01, type: 3}
       propertyPath: m_Name
       value: PhaserWeapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875649530974108271, guid: 2a064a06ee1a56242821312fd6f7cb01, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4875649530974108271, guid: 2a064a06ee1a56242821312fd6f7cb01, type: 3}
       propertyPath: m_LocalPosition.x
